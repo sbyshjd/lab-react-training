@@ -9,6 +9,7 @@ import Carousel from './components/carousel';
 import NumbersTable from './components/numberstable';
 import FaceBook from './components/facebook';
 import SignUp from './components/signup';
+import RgbColorPicker from './components/rgbcolorpicker';
 
 class App extends Component {
   render() {
@@ -95,6 +96,8 @@ class App extends Component {
           <FaceBook/>
           <h1>SignUp Page</h1>
           <SignUp/>
+          <h1>RGB Color Picker</h1>
+          <RgbColorPicker/>
       </div>
     );
   }
