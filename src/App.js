@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import Carousel from './components/carousel';
 import NumbersTable from './components/numberstable';
 import FaceBook from './components/facebook';
+import SignUp from './components/signup';
 
 class App extends Component {
   render() {
@@ -92,6 +93,8 @@ class App extends Component {
           <NumbersTable limit={12} />
           <h1>Facebook</h1>
           <FaceBook/>
+          <h1>SignUp Page</h1>
+          <SignUp/>
       </div>
     );
   }

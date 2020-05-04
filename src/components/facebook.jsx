@@ -35,7 +35,6 @@ class FaceBook extends Component {
     }
 
     render() {
-        console.log(countryArr)
         return (
             <div>
                 {this.state.countries.map((c,i)=> <input style={c.isClicked ? {backgroundColor:'blue'} : {backgroundColor:'white'}} key={i} onClick={(e)=>this.clickHandler(e)} type="button" value={c.name}/> )}
