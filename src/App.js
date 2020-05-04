@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import CreditCard from './components/creditcard';
-import Rating from './components/rating';
-import DriverCard from './components/drivercard';
-import LikeButton from './components/likebutton';
-import ClickablePicture from './components/clickablepicture';
-import Dice from './components/dice';
+// import CreditCard from './components/creditcard';
+// import Rating from './components/rating';
+// import DriverCard from './components/drivercard';
+// import LikeButton from './components/likebutton';
+// import ClickablePicture from './components/clickablepicture';
+// import Dice from './components/dice';
+import Carousel from './components/carousel';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>CreditCard</h1>
+        {/* <h1>CreditCard</h1>
         <div style={{display:'flex'}}>
           <CreditCard
             type="Visa"
@@ -75,7 +76,16 @@ class App extends Component {
           <h1>ClickablePicture</h1>
           <ClickablePicture img='/img/maxence.png' imgClicked='/img/maxence-glasses.png'/>
           <h1>Dice</h1>
-          <Dice/>
+          <Dice/> */}
+          <h1>Carousel</h1>
+          <Carousel
+            imgs={[
+              'https://randomuser.me/api/portraits/women/1.jpg',
+              'https://randomuser.me/api/portraits/men/1.jpg',
+              'https://randomuser.me/api/portraits/women/2.jpg',
+              'https://randomuser.me/api/portraits/men/2.jpg'
+            ]}
+          />
       </div>
     );
   }
