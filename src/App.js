@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 // import ClickablePicture from './components/clickablepicture';
 // import Dice from './components/dice';
 import Carousel from './components/carousel';
+import NumbersTable from './components/numberstable';
 
 class App extends Component {
   render() {
@@ -86,6 +87,8 @@ class App extends Component {
               'https://randomuser.me/api/portraits/men/2.jpg'
             ]}
           />
+          <h1>NumbersTable</h1>
+          <NumbersTable limit={12} />
       </div>
     );
   }

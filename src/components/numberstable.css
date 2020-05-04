@@ -1,0 +1,12 @@
+.number-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.number-card {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2rem;
+    border: solid black 1px;
+}
