@@ -1,0 +1,9 @@
+.facebook-card {
+    display: flex;
+    border: solid black 2px;
+    padding: 10px;
+    margin: 10px;
+}
+img {
+    width: 200px;
+}

@@ -7,6 +7,7 @@ import React, { Component } from 'react';
 // import Dice from './components/dice';
 import Carousel from './components/carousel';
 import NumbersTable from './components/numberstable';
+import FaceBook from './components/facebook';
 
 class App extends Component {
   render() {
@@ -89,6 +90,8 @@ class App extends Component {
           />
           <h1>NumbersTable</h1>
           <NumbersTable limit={12} />
+          <h1>Facebook</h1>
+          <FaceBook/>
       </div>
     );
   }
